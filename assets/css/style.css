@@ -48,13 +48,11 @@
 #home-bar-menu li:nth-child(3) i {
   color: rgba(29, 130, 253, 1);
 }
-
 #home-subscribe {
   padding-top: 2rem;
   display: flex;
   gap: 2rem;
 }
-
 #home-subscribe button:nth-child(1) {
   background: #f000d4;
   background: linear-gradient(
@@ -80,5 +78,4 @@
   text-align: center;
   padding: .5rem;
   margin-top: 2rem;
-
 }
