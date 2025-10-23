@@ -69,7 +69,7 @@
 }
 #home-subscribe button:nth-child(2) {
   background: rgba(0, 0, 0, 0.3);
-  padding: 0.3rem 2rem;
+  padding: 0.3rem 2rem; 
   border-radius: 1.1rem;
   color: white;
 }
