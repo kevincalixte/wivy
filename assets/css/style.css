@@ -1,6 +1,8 @@
 /* HOME */
 body {
   background: rgba(0, 0, 0, 0.9);
+  height: 100dvh;
+  height: 100vh;
 }
 #home {
   display: flex;
