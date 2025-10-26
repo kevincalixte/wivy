@@ -34,11 +34,10 @@ body {
 #home-bar-profil {
   padding: 0.3rem 0.5rem;
   border-radius: 1rem;
-  background-color: rgba(255, 255, 255, 0.2);
   text-align: center;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 #home-bar nav {
   display: flex;
@@ -64,20 +63,22 @@ body {
   align-items: center;
   font-size: 1.5rem;
 }
-
-/* #home-bar-menu li:nth-child(1) {
-} */
-#home-bar-menu li:nth-child(2) i {
-  color: rgba(240, 0, 212, 1);
+#home-bar-menu li:nth-child(1) a:hover {
+  font-weight: bold;
 }
-#home-bar-menu li:nth-child(3) i {
+#home-bar-menu li:nth-child(2) i,
+#home-bar-menu li:nth-child(2) a:hover {
+  color: rgba(240, 0, 212, 1);
+  font-weight: bold;
+}
+#home-bar-menu li:nth-child(3) i,
+#home-bar-menu li:nth-child(3) a:hover {
   color: rgba(29, 130, 253, 1);
+  font-weight: bold;
 }
 #home-subscribe {
-  /* padding-top: 2rem; */
   display: flex;
   justify-content: center;
-
   gap: 2rem;
 }
 #home-subscribe button:nth-child(1) {
@@ -121,6 +122,7 @@ body {
   justify-content: space-around;
 }
 
+/* PRESENTATION */
 #presentation {
   display: flex;
   padding: 3rem;
@@ -128,53 +130,41 @@ body {
   letter-spacing: 0.05rem;
 }
 
+/* DESIGN */
 #design {
   background-image: url(../img/wivy-design.png);
-  background-size: contain; 
-  background-repeat: no-repeat;
-  height: 50%; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
+  background-size: cover;
+  height: 50vh;
+  padding-left: 1rem;
 }
-
 #design p {
   font-size: 2rem;
   color: white;
-  padding-left: 1rem;
 }
-
-#design-download-buttons  {
-margin-bottom: 14%;
-margin-left: 1rem;
-}
-
-#design-download-buttons button:hover  {
-background-color: white;
-color: black;
-}
-
-#design-download {
-  color: white;
-  display: flex;
-}
-
 #design-download-buttons {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: 6rem;
+  padding-left: 15%;
+  padding-top: 2%;
 }
-
+#design-download-buttons button:hover {
+  background-color: white;
+  color: black;
+}
+#design-download {
+  color: white;
+  display: flex;
+}
 #design-download-buttons button {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: .5rem;
+  padding: 0.5rem ;
   border-radius: 2rem;
-    color: white;
-  width: 40%
+  color: white;
+  width: 15rem;
 }
 
+/* PLANS */
 #plans {
   background-color: white;
   display: flex;
@@ -185,6 +175,7 @@ color: black;
   padding: 2rem;
 }
 
+/* FOOTER */
 footer p {
   color: white;
   text-align: center;
