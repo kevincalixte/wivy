@@ -1,5 +1,5 @@
 # changement de couleur quand on entre dans une cat
-# 3 modes :
+# 3 modes (a ajouter dans le html comme section animée) :
 - circle 
 - list  
 - swipe
