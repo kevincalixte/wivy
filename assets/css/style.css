@@ -129,23 +129,35 @@ body {
 }
 
 #design {
-  max-width: 100%;
-  position: relative;
+  background-image: url(../img/wivy-design.png);
+  background-size: contain; 
+  background-repeat: no-repeat;
+  height: 50%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
-#design img {
-  max-width: 100vw;
-}
+
 #design p {
   font-size: 2rem;
-}
-#design-download button {
   color: white;
+  padding-left: 1rem;
 }
+
+#design-download-buttons  {
+margin-bottom: 14%;
+margin-left: 1rem;
+}
+
+#design-download-buttons button:hover  {
+background-color: white;
+color: black;
+}
+
 #design-download {
   color: white;
-  position: absolute;
-  top: 0;
-  left: 1rem;
+  display: flex;
 }
 
 #design-download-buttons {
@@ -159,6 +171,8 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
   padding: .5rem;
   border-radius: 2rem;
+    color: white;
+  width: 40%
 }
 
 #plans {
